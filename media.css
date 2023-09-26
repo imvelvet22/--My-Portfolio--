@@ -64,6 +64,8 @@
         padding-top: 0;
         font-size: 15px;
         color: #161515;
+        text-align: left;
+        margin-right: 30px;
     }
     .about-col-1 img{
         width:90%;
