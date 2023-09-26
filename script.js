@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
         fetch(scriptURL, { method: 'POST', body: new FormData(form) })
             .then(response => {
-                // Modify the color of the "Message sent!" text here
+                
                 msg.innerHTML = "<span style='color: black;'>Message sent! I'll check it immediately.</span>";
 
                 setTimeout(function () {
